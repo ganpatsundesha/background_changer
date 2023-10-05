@@ -10,7 +10,6 @@ color_box.forEach(function (box) {
 
         body.style.backgroundColor = e.target.id;
 
-
         // if (e.target.id === 'gray'){
         //     body.style.backgroundColor = e.target.id
         // }
@@ -19,21 +18,22 @@ color_box.forEach(function (box) {
             body.style.color = "#fff"
             e.target.style.border = '1px solid white';
         }
-        // else if (e.target.id === 'yellow'){
-        //     body.style.backgroundColor = e.target.id
-        //     body.style.color = "#000"
-        // }
-        // else if (e.target.id === 'pink'){
-        //     body.style.backgroundColor = e.target.id
-        // }
-        // else if (e.target.id === 'blue'){
-        //     body.style.backgroundColor = e.target.id
-        //     body.style.color = "#fff"
-        // }
-        // else if (e.target.id === 'white'){
-        //     body.style.backgroundColor = e.target.id
-        //     body.style.color = "#000"
-        // }
+        else if (e.target.id === 'yellow') {
+            body.style.backgroundColor = e.target.id
+            body.style.color = "#000"
+        }
+        else if (e.target.id === 'pink') {
+            body.style.backgroundColor = e.target.id
+            body.style.color = "#000"
+        }
+        else if (e.target.id === 'blue') {
+            body.style.backgroundColor = e.target.id
+            body.style.color = "#fff"
+        }
+        else if (e.target.id === 'white') {
+            body.style.backgroundColor = e.target.id
+            body.style.color = "#000"
+        }
         // else if (e.target.id === 'orange'){
         //     body.style.backgroundColor = e.target.id
         // }
